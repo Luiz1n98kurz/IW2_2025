@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="projeto.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Filtro de Clientes</h1>
+    <p>Este sistema filtra os dados cadastrados no objetos javascript e traz e traz apenas os clentes com idade >=18.</p>
+
+    <ul id="listaClientesAdultos"> </ul>
+
+    <button type="button" class="btn btn-primary btn-lg" onclick="mostrarClientesAdultos()">Mostrar Clientes </button>
+    <hr>
+    <h1>Cadastrar novo cliente</h1>
+
+    <label>
+        Nome:
+        <input type="text" id="nome">
+    </label>
+    <label>
+        Idade:
+        <input type="number" id="idade">
+    </label>
+    <label>
+        email:
+        <input type="text" id="email">
+    </label>
+
+    <button onclick="cadastrarcliente()">Cadastrar Clientes</button>
+
+    <p id="mensagemcadastro"></p>
+
+    
+</body>
+</html>
